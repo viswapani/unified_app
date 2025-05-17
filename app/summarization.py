@@ -30,7 +30,7 @@ def chunk_text(text, max_words=100):
         yield chunk
 
 # Set up the generative AI model
-genai.configure(api_key="***REMOVED***")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 #model = genai.GenerativeModel("gemini-1.5-flash-latest")
 

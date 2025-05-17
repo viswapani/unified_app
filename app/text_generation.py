@@ -7,7 +7,7 @@ import os
 router = APIRouter()
 
 # Set up the generative AI model
-gai.configure(api_key="***REMOVED***")  
+gai.configure(api_key="")  
 model = gai.GenerativeModel("gemini-1.5-flash")
 
 # Pydantic model for input validation

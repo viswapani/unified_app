@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, APIRouter
 from pydantic import BaseModel
 import google.generativeai as genai
 
-genai.configure(api_key=("***REMOVED***"))
+genai.configure(api_key=(""))
 
 # Set up the model configuration
 generation_config = {
